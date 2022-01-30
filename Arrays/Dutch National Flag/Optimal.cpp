@@ -1,6 +1,6 @@
 // Time Complexity - O(N)
 // Space Complexity - O(1)
-// 2 pointer approach
+// 3 pointer partioning
 
 class Solution {
 public:
