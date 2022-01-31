@@ -1,7 +1,9 @@
 // Time Complexity - O(N)
 // Space Complexity - O(1)
-// Mathematical Logic :  missing number =
-
+// Mathematical Logic :  missing number =  (s + p/s)/2;
+ // s = s - arr[i]; // s = sum of ele form 1 to n
+ // p = p - (arr[i]*arr[i]); // p = sum of squares of ele from 1 to n
+// Draw back - for larger input time limit may exceed due to computation of squares
 
 #include<bits/stdc++.h>
 using namespace std;
