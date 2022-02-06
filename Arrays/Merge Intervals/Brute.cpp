@@ -1,6 +1,6 @@
 // Leetcode - https://leetcode.com/problems/merge-intervals/
 // Time Complexity - O(N*N) + O(NlogN) = O(N^2)
-// Space Complexity - O(1) // O(N) for returning the output
+// Space Complexity - O(N) (to return the answer of the merged intervals)
 
 class Solution {
 public:
