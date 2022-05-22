@@ -1,27 +1,32 @@
 // C++ program to check for even or odd
 // using Bitwise XOR operator
 
-#include <iostream>
+#include<bits/stdc++.h>
 using namespace std;
-
-// Returns true if n is even, else odd
+// using XOR operator
 bool isEven(int n)
 {
+    if((n^1) == n+1)
+    {
+        return true;
+    }
+    // for odd number  - n^1 == n-1
+    return false;
 
-	// n^1 is n+1, then even, else odd
-	if (n ^ 1 == n + 1)
-		return true;
-	else
-		return false;
 }
-
-// Driver code
 int main()
 {
-	int n = 100;
-	isEven(n)
-? cout << "Even"
-: cout << "Odd";
-
-	return 0;
+    int n;
+    cout<<"enter n = ";
+    cin>>n;
+    isEven(n);
+    if(isEven(n))
+    {
+        cout<<"even";
+    }
+    else
+    {
+        cout<<"odd";
+    }
+    return 0;
 }
